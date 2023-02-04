@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    background-color: #F8F8F8;
+}
+
+header{
+    position: relative;
+}
+
+.container{
+    margin: auto;
+    width: 1100px;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.main-menu > li {
+    float: left;
+    border-right: 1px solid #333333;
+}
+.main-menu > li:nth-child(4) {
+    border-right: 0px solid #33333300;
+}
+.main-menu > li > a {
+    width: 130px;
+    padding: 10px 0px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.main-menu > li > a:hover {
+    cursor: pointer;
+    background-color: #333333;
+    color:#ffffff;
+} 
+
+.banner{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    width: 45%;
+    color: #ffffff;
+}
+.banner a{
+    text-decoration: none;
+    color: #CAD752;
+}
+
+h1{
+    margin: 0px;
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.topic{
+    margin: 20px 0;
+    font-size: 1.5vw;
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    border: 3px solid #CAD752;
+    text-align: center;
+    color: #CAD752;
+    font-weight: 400;
+    font-size: 1.7vw;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #CAD752;
+    color:#ffffff;
+}
+
+h2{
+    margin: 70px 0 50px 0;
+    font-size: 3vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.box-2{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid p{
+    padding: 0 20px;
+}
+
+.box-4{
+    margin-top: 70px;
+}
+
+.picth{
+    margin-left: 50px;
+    float: right;
+}
+
+.box-4 h3{
+    padding-top: 60px;
+    font-size: 35px;
+}
+
+.box-4 button{
+    margin-top: 30px;
+    padding: 10px 50px;
+    border: none;
+    background-color:#CAD752;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.lead{
+    margin-top: -350px;
+    padding-left: 20px;
+    width: 600px;
+    color:#ffffff;
+}
+
+.box-5 h3{
+    padding-top: 0px;
+    font-size: 35px;
+}
+
+.box-5 button{
+    margin-top: 20px;
+    padding: 10px 50px;
+    background-color: #ffffff00;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+}
+.box-5 button:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color:#333333;
+} 
+
+.box-6{
+    margin-top: 80px;
+}
+
+.tagline{
+    margin-top: 20px;
+    width: 500px;
+    float: right;
+}
+
+.box-6 h3{
+    font-size: 30px;
+}
+
+.box-6 button{
+    margin: 17px 0 45px 0;
+    padding: 10px 50px;
+    border: none;
+    background-color:#CAD752;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.box-7 h2{
+    margin-bottom: 10px;
+}
+
+.dignity{
+    margin-top: 40px;
+}
+
+.dignity div{
+margin: 0;
+padding: 0;
+width: 440px;
+float: right;
+}
+
+.text{
+    margin: 5px 0;
+    font-size: 22px;
+}
+
+.slider div{
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    float: right;
+}
+    
+.box-9{
+    margin-top: 100px;
+    width: 900px;
+    border: 5px solid #CAD752;
+}
+
+h4{
+    margin: 30px 0 20px 0;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color:#CAD752;
+}
+
+form input{
+    margin: 30px;
+    width: 220px;
+    height: 30px;
+    border: 2px solid #00000000;
+    border-bottom: 1px solid #000000;
+    background-color:#00000000;
+    font-size: 16px;
+}
+
+.box-9 button{
+    margin: 20px auto;
+    padding: 10px 50px;
+    border: none;
+    background-color:#CAD752;
+    color:#ffffff;
+    font-size: 20px;
+    display: block;
+}
+button a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+.footnote{
+    margin: 30px;
+    font-size: 14px;
+    color:#CAD752
+}
+.footnote a{ 
+    color:#CAD752;
+    font-weight: 400;
+}
+
+
+
+
+footer {
+    height: 100px;
+    font-size: 15px;
+}
+footer>.container{
+    width: 100%;
+}
+
+.foot-menu {
+    margin-top: 60px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.foot-menu > li {
+    float: left;
+}
+
+.logo{
+    list-style: none;
+}
+
+.info{
+    width: 470px;
+    list-style: none;
+}
+
+.contacts{
+    width: 300px;
+    list-style: none;
+}
+
+.tel{
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 23px;
+}
+.tel a{
+    text-decoration: none;
+    color:#333333;
+}
